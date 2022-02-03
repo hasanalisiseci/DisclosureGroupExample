@@ -11,6 +11,10 @@
 		74DCEFFF27AC73950068EDF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DCEFFE27AC73950068EDF6 /* ContentView.swift */; };
 		74DCF00127AC73980068EDF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DCF00027AC73980068EDF6 /* Assets.xcassets */; };
 		74DCF00427AC73980068EDF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DCF00327AC73980068EDF6 /* Preview Assets.xcassets */; };
+		74DCF00E27AC73AD0068EDF6 /* DisclosureContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DCF00A27AC73AD0068EDF6 /* DisclosureContentView.swift */; };
+		74DCF00F27AC73AD0068EDF6 /* CustomDisclosureGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DCF00B27AC73AD0068EDF6 /* CustomDisclosureGroupView.swift */; };
+		74DCF01027AC73AD0068EDF6 /* DisclosureLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DCF00C27AC73AD0068EDF6 /* DisclosureLabelView.swift */; };
+		74DCF01127AC73AD0068EDF6 /* BasicDisclosureGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DCF00D27AC73AD0068EDF6 /* BasicDisclosureGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		74DCEFFE27AC73950068EDF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74DCF00027AC73980068EDF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74DCF00327AC73980068EDF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74DCF00A27AC73AD0068EDF6 /* DisclosureContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclosureContentView.swift; sourceTree = "<group>"; };
+		74DCF00B27AC73AD0068EDF6 /* CustomDisclosureGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDisclosureGroupView.swift; sourceTree = "<group>"; };
+		74DCF00C27AC73AD0068EDF6 /* DisclosureLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisclosureLabelView.swift; sourceTree = "<group>"; };
+		74DCF00D27AC73AD0068EDF6 /* BasicDisclosureGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicDisclosureGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				74DCEFFC27AC73950068EDF6 /* DisclosureGroupExampleApp.swift */,
 				74DCEFFE27AC73950068EDF6 /* ContentView.swift */,
+				74DCF00D27AC73AD0068EDF6 /* BasicDisclosureGroupView.swift */,
+				74DCF00B27AC73AD0068EDF6 /* CustomDisclosureGroupView.swift */,
+				74DCF00A27AC73AD0068EDF6 /* DisclosureContentView.swift */,
+				74DCF00C27AC73AD0068EDF6 /* DisclosureLabelView.swift */,
 				74DCF00027AC73980068EDF6 /* Assets.xcassets */,
 				74DCF00227AC73980068EDF6 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74DCF00E27AC73AD0068EDF6 /* DisclosureContentView.swift in Sources */,
 				74DCEFFF27AC73950068EDF6 /* ContentView.swift in Sources */,
+				74DCF01127AC73AD0068EDF6 /* BasicDisclosureGroupView.swift in Sources */,
+				74DCF01027AC73AD0068EDF6 /* DisclosureLabelView.swift in Sources */,
+				74DCF00F27AC73AD0068EDF6 /* CustomDisclosureGroupView.swift in Sources */,
 				74DCEFFD27AC73950068EDF6 /* DisclosureGroupExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
